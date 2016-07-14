@@ -1,0 +1,65 @@
+/*
+Theme Name: Starkers HTML5
+Theme URI: http://nathanstaines.com
+Description: An HTML5 version of <a href="http://elliotjaystocks.com/starkers/">Starkers</a> by <a href="http://elliotjaystocks.com/">Elliot Jay Stocks</a> which is based on Twenty Ten.
+Version: 3.2
+Author: Nathan Staines
+Author URI: http://nathanstaines.com
+Tags: starkers, html5, naked, clean, basic
+*/
+
+@import "css/reset.css";
+@import "css/layout.css";
+@import "css/bootstrap.min.css";
+@import "css/bootstrap-theme.css";
+
+
+/* Fonts */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+p, div {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: #ffecf0;
+}
+
+.page-header {
+    background-color: #ffffff;
+    height: 165px;
+}
+
+#menu { 
+    background: #f1fdfa; 
+    height: 40px;
+}
+
+#menu li { display: inline; }
+
+#slideshow {
+    height: 400px;
+    background-color: #f9eff9;
+    margin: 25px 0px;
+}
+
+#NewAdditions {
+    height: 480px;
+    background-color: #f9eff7;
+}
+
+#post-area.col-sm-8 {
+    background-color:#e4f2f9;
+}
+
+#sidebar-area.col-sm-4 {
+    background-color:#fbfbd6;
+}
+
+#footer.container-fluid {
+    background: #dedddd;
+    margin-top: 20px;
+    height: 230px;
+}
