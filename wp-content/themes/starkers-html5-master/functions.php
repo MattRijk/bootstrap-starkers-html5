@@ -175,6 +175,17 @@ function starkers_widgets_init() {
 		'before_title' => '<h3>',
 		'after_title' => '</h3>',
 	) );
+	
+	// Area 3, located below the Primary Widget Area in the sidebar. Empty by default.
+	register_sidebar( array(
+		'name' => __( 'Box One Area', 'starkers' ),
+		'id' => 'box-one-area',
+		'description' => __( 'The box one area', 'starkers' ),
+		'before_widget' => '<li>',
+		'after_widget' => '</li>',
+		'before_title' => '<h3>',
+		'after_title' => '</h3>',
+	) );
 
 	// Area 3, located in the footer. Empty by default.
 	register_sidebar( array(

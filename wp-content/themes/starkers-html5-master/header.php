@@ -31,7 +31,7 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<link href='https://fonts.googleapis.com/css?family=Slabo+27px|Roboto:400,500,300,900' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:900|Fira+Sans:400,700,500' rel='stylesheet' type='text/css'>
  
 <script src="<?php bloginfo('template_directory'); ?>/js/modernizr-1.6.min.js"></script>
  

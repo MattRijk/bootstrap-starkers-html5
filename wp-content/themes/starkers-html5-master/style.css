@@ -17,10 +17,10 @@ Tags: starkers, html5, naked, clean, basic
 /* Fonts */
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 p, div {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .container {
@@ -63,3 +63,27 @@ p, div {
     margin-top: 20px;
     height: 230px;
 }
+/*.image-text-widget-text  {*/
+
+/*    background-color: blue;*/
+/*    color: white;*/
+/*}*/
+
+/*img.image-text-widget-image {*/
+    
+/*    width: 293px;*/
+/*    height: 170px;*/
+/*    margin-bottom: 10px;*/
+/*    background-color: blue;*/
+/*    color: white;*/
+/*}*/
+
+/*img.image-text-widget-image .h3, h3 {*/
+/*    font-size: 24px;*/
+/*    padding-left: 10px;*/
+/*}*/
+
+/*.widget-content p {*/
+/*    margin-bottom: 0px;*/
+/*    padding-left: 10px;*/
+/*}*/
