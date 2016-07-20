@@ -8,7 +8,7 @@
  */
 ?>
 
-	<footer id="footer" class="container-fluid">
+	<footer id="footer" class="container-fluid text-center">
 
 <?php
 	get_sidebar( 'footer' );

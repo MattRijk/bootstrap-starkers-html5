@@ -176,11 +176,44 @@ function starkers_widgets_init() {
 		'after_title' => '</h3>',
 	) );
 	
-	// Area 3, located below the Primary Widget Area in the sidebar. Empty by default.
+	//Box One Area, located below the Main Image.
+	register_sidebar( array(
+		'name' => __( 'Main Image', 'starkers' ),
+		'id' => 'main-image-area',
+		'description' => __( 'The main image area', 'starkers' ),
+		'before_widget' => '<li>',
+		'after_widget' => '</li>',
+		'before_title' => '<h3>',
+		'after_title' => '</h3>',
+	) );
+	
+	//Box One Area, located below the Main Image.
 	register_sidebar( array(
 		'name' => __( 'Box One Area', 'starkers' ),
 		'id' => 'box-one-area',
 		'description' => __( 'The box one area', 'starkers' ),
+		'before_widget' => '<li>',
+		'after_widget' => '</li>',
+		'before_title' => '<h3>',
+		'after_title' => '</h3>',
+	) );
+	
+		//Box Two Area, located below the Main Image.
+	register_sidebar( array(
+		'name' => __( 'Box Two Area', 'starkers' ),
+		'id' => 'box-two-area',
+		'description' => __( 'The box two area', 'starkers' ),
+		'before_widget' => '<li>',
+		'after_widget' => '</li>',
+		'before_title' => '<h3>',
+		'after_title' => '</h3>',
+	) );
+	
+	//Box Three Area, located below the Main Image.
+	register_sidebar( array(
+		'name' => __( 'Box Three Area', 'starkers' ),
+		'id' => 'box-three-area',
+		'description' => __( 'The box three area', 'starkers' ),
 		'before_widget' => '<li>',
 		'after_widget' => '</li>',
 		'before_title' => '<h3>',

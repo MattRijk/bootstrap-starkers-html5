@@ -9,15 +9,30 @@
  
 get_header(); ?>
 
-<div id="slideshow"></div>
 
-<div id="NewAdditions"></div>
+<div class="row">
+    <div class="col-lg-12 text-center">
+        <?php
+        	// First image widget.
+        	if ( is_active_sidebar( 'main-image-area' ) ) : ?>
+        
+        			<ul>
+        				<?php dynamic_sidebar( 'main-image-area' ); ?>
+        			</ul>
+        
+        <?php endif; ?>
+        </div>
+
+    
+</div>
+
+
 
       <!-- Example row of columns -->
       <div id="image-wells" class="row">
         <div class="col-md-4">
-            <?php
-        	// A second sidebar for widgets, just because.
+        <?php
+        	// First image widget.
         	if ( is_active_sidebar( 'box-one-area' ) ) : ?>
         
         			<ul>
@@ -26,15 +41,28 @@ get_header(); ?>
         
         <?php endif; ?>
         </div>
+        
         <div class="col-md-4">
-          <h2>Feature 2</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <?php
+        	// Second image widget.
+        	if ( is_active_sidebar( 'box-two-area' ) ) : ?>
+        
+        			<ul>
+        				<?php dynamic_sidebar( 'box-two-area' ); ?>
+        			</ul>
+        
+        <?php endif; ?>
        </div>
         <div class="col-md-4">
-          <h2>Feature 3</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+           <?php
+        	// Third image widget.
+        	if ( is_active_sidebar( 'box-three-area' ) ) : ?>
+        
+        			<ul>
+        				<?php dynamic_sidebar( 'box-three-area' ); ?>
+        			</ul>
+        
+        <?php endif; ?>
         </div>
       </div>
  
